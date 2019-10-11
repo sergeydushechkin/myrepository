@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mystyles.css">
+  <title>My hello World page</title>
+</head>
+
+<body>
+  <h1>Hellow World!</h1>
+  <h1>Привет мир!</h1>
+  <div class="forhide">
+    <p>Привет миру, миру привет...</p>
+    <p hidden>Привет и тебе Человек!</p>
+  </div>
+  <div class="parent">
+    <div class="child">TEST text</div>
+    <div class="child">TEST text</div>
+    <div class="child">TEST text</div>
+    <div class="child-big">TEST text</div>
+    <div class="child-wrap">
+      <div class="child">TEST text</div>
+      <div class="child">TEST text</div>
+    </div>
+    <div class="child">TEST text</div>
+    <div class="child">TEST text</div>
+    <div class="child">TEST text</div>
+  </div>
+
+  <button class="show" type="button">Позать</button>
+
+  <div class="modal">
+    <form method="POST" action="http://echo.htmlacademy.ru" oninput="colval.value=color.value">
+      <label>Параметр 1
+        <input type="text" name="par1" required>
+      </label>
+      <label>Параметр 2
+        <input type="date" name="date">
+      </label>
+      <label for="txtar1">Область ввода</label>
+      <textarea name="textarea1" rows="4" cols="10" id="txtar1">Текст по умолчанию</textarea>
+      <button type="submit" name="btn1">Отправить</button>
+      <fieldset>
+        <legend>Цвета</legend>
+        <input type="text" name="colval" readonly>
+        <input type="color" name="color">
+      </fieldset>
+      <p><a href="tel:+7(123)123-34-11">Телефон</a></p>
+    </form>
+  </div>
+
+  <script>
+    var lnk = document.querySelector(".show");
+    var toShow = document.querySelector(".modal");
+
+    lnk.addEventListener("click", function(evt) {
+      evt.preventDefault();
+      toShow.classList.toggle("modal-show");
+    });
+  </script>
+</body>
+
+</html>
