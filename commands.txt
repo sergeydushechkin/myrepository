@@ -1,0 +1,2 @@
+git log --graph --left-right --cherry-pick --oneline master branch_1_1 branch_1_2 branch4 branch3
+git rebase --onto master branch_1_1
