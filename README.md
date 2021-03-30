@@ -1,20 +1,35 @@
-# myrepository
+# Welcome to myrepository 👋
+[![Version](https://img.shields.io/npm/v/myrepository.svg)](https://www.npmjs.com/package/myrepository)
 
-Репозиторий для тренировки и экспериментов с Git и другим ПО
+> myrespository is a test project
 
-## Installation
+## Install
 
-```bash
+```sh
 npm install
 ```
 
 ## Usage
 
-```bash
-npm run jsstart
+```sh
+npm run start
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Run tests
 
-Please make sure to update tests as appropriate.
+```sh
+npm run test
+```
+
+## Author
+
+👤 **Sergey**
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
