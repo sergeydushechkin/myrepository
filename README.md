@@ -1,7 +1,7 @@
 # Welcome to myrepository 👋
 [![Version](https://img.shields.io/npm/v/myrepository.svg)](https://www.npmjs.com/package/myrepository)
 
-> myrespository is a test project
+> Myrespository is a test project
 
 ## Install
 
